@@ -13,6 +13,9 @@
 		9F7AB4141CA8EC52009D48CE /* MidTerm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AB4121CA8EC52009D48CE /* MidTerm.xcdatamodeld */; };
 		9F7AB4161CA8EC52009D48CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7AB4151CA8EC52009D48CE /* Assets.xcassets */; };
 		9F7AB4191CA8EC52009D48CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7AB4171CA8EC52009D48CE /* LaunchScreen.storyboard */; };
+		9F7AB4211CA8F868009D48CE /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AB4201CA8F868009D48CE /* MyTableViewCell.swift */; };
+		9F7AB4231CA8FBEC009D48CE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AB4221CA8FBEC009D48CE /* SecondViewController.swift */; };
+		9F7AB4251CA8FEDA009D48CE /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AB4241CA8FEDA009D48CE /* MovieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9F7AB4151CA8EC52009D48CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7AB4181CA8EC52009D48CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F7AB41A1CA8EC52009D48CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7AB4201CA8F868009D48CE /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		9F7AB4221CA8FBEC009D48CE /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9F7AB4241CA8FEDA009D48CE /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				9F7AB40B1CA8EC52009D48CE /* AppDelegate.swift */,
 				9F7AB40D1CA8EC52009D48CE /* ViewController.swift */,
+				9F7AB4201CA8F868009D48CE /* MyTableViewCell.swift */,
+				9F7AB4221CA8FBEC009D48CE /* SecondViewController.swift */,
+				9F7AB4241CA8FEDA009D48CE /* MovieTableViewController.swift */,
 				9F7AB40F1CA8EC52009D48CE /* Main.storyboard */,
 				9F7AB4151CA8EC52009D48CE /* Assets.xcassets */,
 				9F7AB4171CA8EC52009D48CE /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7AB4141CA8EC52009D48CE /* MidTerm.xcdatamodeld in Sources */,
+				9F7AB4211CA8F868009D48CE /* MyTableViewCell.swift in Sources */,
+				9F7AB4251CA8FEDA009D48CE /* MovieTableViewController.swift in Sources */,
 				9F7AB40E1CA8EC52009D48CE /* ViewController.swift in Sources */,
+				9F7AB4231CA8FBEC009D48CE /* SecondViewController.swift in Sources */,
 				9F7AB40C1CA8EC52009D48CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
