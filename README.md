@@ -10,10 +10,11 @@ ScrollView , UILable , UIButton , UITextField 等..
 
 另外一題排序，
 我採用的解法為：
-<ul><li></li><li></li></ul>
-1. 先將兩個array合併，並過濾重複的項目。
-2. 再將array中的數字由小排至大
-    簡單說明排序的想法：
-      將array跑一個兩層的迴圈，每次比較並將較小的值往後放。
+<ul>
+    <li>先將兩個array合併，並過濾重複的項目。</li>
+    <li>再將array中的數字由小排至大
+        簡單說明排序的想法：
+        將array跑一個兩層的迴圈，每次比較並將較小的值往後放。</li>
+</ul>
       
       
