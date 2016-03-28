@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController{
     
     @IBOutlet weak var resultLabel: UILabel!
-    @IBOutlet weak var showLabel: UILabel!
+    
+    @IBOutlet weak var showTextField: UITextView!
     @IBOutlet weak var textField: UITextField!
     
     var count:Int = 0
@@ -31,7 +32,7 @@ class ViewController: UIViewController{
     
     @IBAction func addSign(sender: AnyObject) {
         if  checkInputIsNotEmpty() && checkLine(){
-            self.showLabel.text = self.showLabel.text! + self.textField.text! + "\n"
+            self.showTextField.text = self.showTextField.text! + self.textField.text! + "\n"
             self.textField.text = ""
             self.count += 1
             self.resultLabel.text = ""

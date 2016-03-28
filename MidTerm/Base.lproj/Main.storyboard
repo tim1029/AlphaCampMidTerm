@@ -183,17 +183,17 @@
                                     <action selector="addSign:" destination="mMN-Ih-GYr" eventType="touchUpInside" id="GVr-XJ-48c"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meE-ZJ-9db">
-                                <rect key="frame" x="16" y="80" width="344" height="189"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aJ-uW-M0g">
+                                <rect key="frame" x="16" y="66" width="339" height="157"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.043137254901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="189" id="Lgh-S8-CoL"/>
+                                    <constraint firstAttribute="height" constant="157" id="JeK-g0-mMN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqY-Gd-j7s">
-                                <rect key="frame" x="20" y="288" width="107" height="33"/>
+                                <rect key="frame" x="16" y="245" width="339" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -202,15 +202,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="svV-sC-VMa" firstAttribute="top" secondItem="DBl-Ce-VrQ" secondAttribute="bottom" constant="8" id="0zX-Hg-I9q"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="rqY-Gd-j7s" secondAttribute="trailing" constant="228" id="89y-Jl-bMl"/>
+                            <constraint firstItem="rqY-Gd-j7s" firstAttribute="top" secondItem="4aJ-uW-M0g" secondAttribute="bottom" constant="22" id="3JB-hT-5vo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rqY-Gd-j7s" secondAttribute="trailing" id="89y-Jl-bMl"/>
                             <constraint firstItem="2c2-GT-xU8" firstAttribute="leading" secondItem="svV-sC-VMa" secondAttribute="trailing" constant="8" id="9FK-8X-5XK"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="rqY-Gd-j7s" secondAttribute="leading" id="DE6-ip-dfU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="meE-ZJ-9db" secondAttribute="trailing" constant="-5" id="NEF-Oy-H4P"/>
-                            <constraint firstItem="meE-ZJ-9db" firstAttribute="leading" secondItem="Zlt-ql-mAo" secondAttribute="leadingMargin" constant="-4" id="ct4-2B-qFl"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="rqY-Gd-j7s" secondAttribute="leading" constant="4" id="DE6-ip-dfU"/>
+                            <constraint firstItem="4aJ-uW-M0g" firstAttribute="top" secondItem="svV-sC-VMa" secondAttribute="bottom" constant="8" id="IFf-7A-jBP"/>
+                            <constraint firstItem="4aJ-uW-M0g" firstAttribute="leading" secondItem="Zlt-ql-mAo" secondAttribute="leadingMargin" constant="-4" id="Le9-bJ-QV1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4aJ-uW-M0g" secondAttribute="trailing" id="Vsb-nu-LQ4"/>
                             <constraint firstItem="2c2-GT-xU8" firstAttribute="top" secondItem="DBl-Ce-VrQ" secondAttribute="bottom" constant="8" id="eSN-cb-w9u"/>
-                            <constraint firstItem="rqY-Gd-j7s" firstAttribute="top" secondItem="meE-ZJ-9db" secondAttribute="bottom" constant="19" id="lDK-2N-Goh"/>
                             <constraint firstAttribute="leadingMargin" secondItem="svV-sC-VMa" secondAttribute="leading" constant="4" id="xeh-Is-p46"/>
-                            <constraint firstItem="meE-ZJ-9db" firstAttribute="top" secondItem="svV-sC-VMa" secondAttribute="bottom" constant="22" id="yS0-We-aPu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2c2-GT-xU8" secondAttribute="trailing" constant="48" id="z1r-o0-XJp"/>
                         </constraints>
                     </view>
@@ -218,7 +218,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="resultLabel" destination="rqY-Gd-j7s" id="hXk-LF-JOt"/>
-                        <outlet property="showLabel" destination="meE-ZJ-9db" id="3qZ-oQ-nW3"/>
+                        <outlet property="showTextField" destination="4aJ-uW-M0g" id="kuP-oz-kbr"/>
                         <outlet property="textField" destination="svV-sC-VMa" id="b7W-tY-3aV"/>
                     </connections>
                 </viewController>
