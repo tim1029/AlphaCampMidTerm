@@ -69,6 +69,9 @@ class MovieTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let movieCell = tableView.dequeueReusableCellWithIdentifier("movieCell")! as! MyTableViewCell
         
+        movieCell.layoutMargins = UIEdgeInsetsZero;
+        movieCell.preservesSuperviewLayoutMargins = false //.preservesSuperviewLayoutMargins = NO;
+        
         switch indexPath.section {
         case 0 :
             movieCell.cellImage.image = UIImage(named: movieList["FirstImage"]!)

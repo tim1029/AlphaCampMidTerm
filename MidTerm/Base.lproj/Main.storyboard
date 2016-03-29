@@ -88,19 +88,20 @@
         <scene sceneID="DaN-Yj-rvs">
             <objects>
                 <tableViewController id="yS0-wY-EzR" customClass="MovieTableViewController" customModule="MidTerm" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="229" sectionHeaderHeight="28" sectionFooterHeight="28" id="v7X-y0-PzI">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="220" sectionHeaderHeight="28" sectionFooterHeight="28" id="v7X-y0-PzI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="229" id="SRz-c1-1yO" customClass="MyTableViewCell" customModule="MidTerm" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="229"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationLevel="1" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="230" id="SRz-c1-1yO" customClass="MyTableViewCell" customModule="MidTerm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="230"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SRz-c1-1yO" id="ZkB-uk-O0d">
-                                    <rect key="frame" x="0.0" y="0.0" width="567" height="228.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="229.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2hM-1E-wc6">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2hM-1E-wc6">
                                             <rect key="frame" x="8" y="16" width="125" height="178.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="2hM-1E-wc6" secondAttribute="height" multiplier="125:178" id="Kr3-tJ-TLH"/>
@@ -134,6 +135,8 @@
                                     <constraint firstAttribute="trailing" secondItem="IWG-b8-yGq" secondAttribute="trailing" constant="33" id="8VX-m7-JFY"/>
                                     <constraint firstAttribute="trailing" secondItem="9hC-fL-r7M" secondAttribute="trailing" constant="33" id="rPX-UY-nBA"/>
                                 </constraints>
+                                <edgeInsets key="layoutMargins" top="28" left="8" bottom="8" right="8"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
                                 <connections>
                                     <outlet property="cellImage" destination="2hM-1E-wc6" id="bwk-20-0Nz"/>
                                     <outlet property="cellLabelSubTittle" destination="9hC-fL-r7M" id="M24-h6-nr8"/>

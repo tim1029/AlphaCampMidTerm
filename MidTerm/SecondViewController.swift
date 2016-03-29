@@ -27,7 +27,7 @@ class SecondViewController: UIViewController, UIScrollViewDelegate {
         SVLabel.text = self.contentOfLabel
         SVImage.image = UIImage(named: self.nameOfImage)
         
-        self.scollView.contentSize = CGSize(width: UIScreen.mainScreen().bounds.width , height: UIScreen.mainScreen().bounds.height * 1.2 )
+        self.scollView.contentSize = CGSize(width: UIScreen.mainScreen().bounds.width , height: UIScreen.mainScreen().bounds.height * 1.4 )
         self.scollView.addSubview(SVImage)
         self.scollView.addSubview(SVLabel)
         
